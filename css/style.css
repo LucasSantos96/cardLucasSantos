@@ -8,8 +8,7 @@
 }
 
 body {
-    background: rgb(101,191,124);
-    background: linear-gradient(0deg, rgba(101,191,124,1) 16%, rgba(49,54,64,1) 100%);
+   background-color: #111;
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -22,50 +21,64 @@ main{
     flex-direction: column;
     background-color: #3136408e;
     width: 350px;
-    height: 450px;
     border-radius: 8px;
-    
-    box-shadow: 10px 7px 16px -3px rgba(0,0,0,0.69);
+    min-height: 420px;
+    box-shadow: 15px 7px 22px -3px #111bd946;
+}
+.caixa-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 .logo{
- display: flex;
- flex-wrap: wrap;
- text-align: center;
- margin-bottom: 30px;
+
+ margin: 30px ;
 
 }
-.logo h1{
+.text-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.text-logo h1{
+   
     color: #fff;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 700;
 
     
 }
 .span-name{
-    color:#65BF7C;
+    color:#9591F2;
+    
 }
-.logo p{
+.text-logo p{
     color: #f1efef;
     margin-top: 10px;
+    margin-bottom: 20px;
 }
 .img-logo{
-    width:70px;
-    border-radius: 10px;
+    width:130px;
+    border-radius: 100px;
     margin-right: 10px;
     
 }
 
 .box {
     background-color: #f1efef;
-    margin: 20px;
+    margin: 30px;
+
     height: 35px;
     width: 300px;
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content:  flex-start;
-    border-radius: 8px;
-    box-shadow: 8px 5px 16px -3px #65bf7cce;
+    border-radius: 15px;
+    box-shadow: 8px 5px 16px -3px #9491f2a0;
     
    
 }
@@ -75,12 +88,13 @@ main{
     color: #111;
 }
 .button :hover{
-    background-color:#65BF7C ;
+    background-color:#111bd966 ;
+    color: #fff;
     
 
 }
 .button :active{
-    background-color:#518C60 ;
+    background-color:#9491f2a0 ;
 }
 .button p{
     font-size: 14px;
