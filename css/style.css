@@ -8,13 +8,31 @@
 }
 
 body {
-   background-color: #111;
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    background-image: url(../imagens/black-prism-concept-ai-generated.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    padding: 0px 0px 40px 0px;
+  
 } 
+header{
+    padding: 10px;
+    margin-bottom: 70px;
+}
+.img-header{
+    position: absolute;
+    right: 0;
+    padding:8px 32px;
+    margin-right: 20px;
+    background-color: #eceaea;
+    border-radius: 32px;
+    box-shadow: 5px 7px 12px -2px #1818182b;
+
+}
+
 main{
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -23,7 +41,7 @@ main{
     width: 350px;
     border-radius: 8px;
     min-height: 420px;
-    box-shadow: 15px 7px 22px -3px #111bd946;
+    box-shadow: 5px 7px 22px 5px #111bd92b;
 }
 .caixa-header{
     display: flex;
@@ -102,9 +120,17 @@ main{
 }
 .box img{
     width: 25px;
-    margin-left: 15px;
-
-    
+    margin-left: 15px; 
 
 }
 
+@media(max-width:1024px) {
+    .active{
+        background-image: url(../imagens/5594016.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 100vh;
+    }
+
+}
